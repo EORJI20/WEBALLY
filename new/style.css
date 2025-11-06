@@ -547,3 +547,23 @@ footer p {
         margin-left: auto;
     }
 }
+@media (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+        padding: 120px 20px 80px 20px;
+    }
+    .hero-image img {
+        width: 200px;
+        height: 200px;
+    }
+    .about, .projects, .experience, .testimonials, .contact-cta, footer {
+        padding: 80px 20px 80px 20px;
+    }
+    .social-bar {
+        left: auto;
+        right: 0;
+        padding-right: 8px;
+        border-left: none;
+        border-right: 2px solid var(--primary);
+    }
+}
